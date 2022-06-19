@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>	//보안 카드 접수증
 main()
 {
-//보안 카드 접수증
 	char name[21];
 	int age;
 	char code;
@@ -24,8 +23,12 @@ main()
 	printf("보안코드: %g\n", secure);
 	printf("*****************\n"); 
 
-	
-//정수 계산기
+}
+
+
+#include <stdio.h>	//정수 계산기
+main()
+{
 	int a, b;
 	
 	printf("두 수를 입력하세요: ");
@@ -37,8 +40,12 @@ main()
 	printf("%d / %d = %d\n", a, b, a / b);
 	printf("%d %% %d = %d\n", a, b, a % b);
 	
-	
-//성적 계산
+}
+
+
+#include <stdio.h>	//성적 계산
+main()
+{
 	double a, b, c;
 	int d, e, f;
 	double score;
@@ -54,4 +61,22 @@ main()
 	score = a*d + b*e + c*f; 
 	printf("점수는 %.1lf입니다.\n",score);
 	
+}
+
+
+#include <stdio.h>	//번호 뽑기
+#include <time.h>
+#include <stdlib.h>
+main()
+{
+	int a, b, num;
+	
+	srand(time(NULL));
+	
+	printf("***번호뽑기 프로그램***\n");
+	printf("번호의 범위를 입력하세요(시작번호, 마지막번호): ");
+	scanf("%d %d", &a, &b);
+	num = rand() % (b-a+1) + a;
+	printf("축하합니다! 뽑힌 번호는 %d입니다!\n", num);
+		
 }
