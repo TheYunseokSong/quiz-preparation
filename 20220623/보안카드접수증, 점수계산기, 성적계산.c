@@ -52,5 +52,6 @@ main()
 	scanf("%lf %d", &c, &f);
 	
 	score = a*d + b*e + c*f; 
-	printf("점수는 %g입니다.\n",score);
+	printf("점수는 %.1lf입니다.\n",score);
+	
 }
