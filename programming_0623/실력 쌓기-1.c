@@ -23,4 +23,17 @@ main()
 	printf("부서코드: %c\n", code);
 	printf("보안코드: %g\n", secure);
 	printf("*****************\n"); 
+
+	
+	//정수 계산기
+	int a, b;
+	
+	printf("두 수를 입력하세요: ");
+	scanf("%d %d", &a, &b);
+	
+	printf("%d + %d = %d\n", a, b, a + b);
+	printf("%d - %d = %d\n", a, b, a - b);
+	printf("%d * %d = %d\n", a, b, a * b);
+	printf("%d / %d = %d\n", a, b, a / b);
+	printf("%d %% %d = %d\n", a, b, a % b);
 }
