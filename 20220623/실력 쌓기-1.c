@@ -1,4 +1,4 @@
-#include <stdio.h>	//01.보안 카드 접수증
+#include <stdio.h>	//01. 보안 카드 접수증
 main()
 {
 	char name[21];
@@ -26,7 +26,7 @@ main()
 }
 
 
-#include <stdio.h>	//02.정수 계산기
+#include <stdio.h>	//02. 정수 계산기
 main()
 {
 	int a, b;
@@ -43,7 +43,7 @@ main()
 }
 
 
-#include <stdio.h>	//03.성적 계산
+#include <stdio.h>	//03. 성적 계산
 main()
 {
 	double a, b, c;
@@ -64,7 +64,7 @@ main()
 }
 
 
-#include <stdio.h>	//04.번호 뽑기
+#include <stdio.h>	//04. 번호 뽑기
 #include <time.h>
 #include <stdlib.h>
 main()
