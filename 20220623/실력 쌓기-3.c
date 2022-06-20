@@ -1,4 +1,4 @@
-#include <stdio.h>	// 01.구간의 수 출력하기 
+#include <stdio.h>	//01. 구간의 수 출력하기 
 main()
 {
 	int a, b, temp, i;
@@ -6,6 +6,7 @@ main()
 	printf("***두 수 구간의 숫자 출력하기***\n");
 	printf("두 수를 입력하세요 : ");
 	scanf("%d %d", &a, &b);
+	
 	if (a > b)
 	{
 		temp = a;
@@ -19,7 +20,7 @@ main()
 }
 
 
-#include <stdio.h>	// 02.가장 큰 운동장 
+#include <stdio.h>	//02. 가장 큰 운동장 
 main()
 {
 	int i, w, h, max = 0;
@@ -32,6 +33,30 @@ main()
 		if(w*h > max)
 			max = w*h;
 	}
+	
 	printf("가장 큰 운동장의 넓이는 %d입니다.\n", max);
 
+}
+
+
+#include <stdio.h>	//03. 1등과 꼴등 
+main()
+{
+	int n, i, num;
+	int max = 0, min = 100;
+	
+	printf("학생 수를 입력하세요 : ");
+	scanf("%d", &n);
+	printf("점수를 입력하세요(0~100) : ");
+	for(i = 0; i<n; i++)
+	{
+		scanf("%d", &num);
+		if(num > max)
+			max = num;
+		if(num < min)
+			min = num;
+	 } 
+	
+	printf("1등은 %d점, 꼴찌는 %d점\n", max, min);
+	
 }
