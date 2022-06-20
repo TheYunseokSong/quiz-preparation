@@ -60,3 +60,26 @@ main()
 	printf("1등은 %d점, 꼴찌는 %d점\n", max, min);
 	
 }
+
+
+#include <stdio.h>	//04. 가장 큰 수 
+main()
+{
+	int a, i, m1 = 0, m2 = 0;
+	
+	for(i = 0; i < 10; i++)
+	{
+		scanf("%d", &a);
+		if(a % 2 == 1)
+			if(a > m1)
+				m1 = a;
+		if(a % 2 == 0)
+			if(a > m2)
+				m2 = a;
+	 } 
+	if(m1 > 0)
+		printf("%d ", m1);
+	if(m2 > 0)
+		printf("%d ", m2);
+		
+}
