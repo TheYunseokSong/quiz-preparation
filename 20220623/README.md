@@ -9,4 +9,8 @@ p.72~79
 p.96~103
 
 
+### <실력 쌓기-3>
+구간의 수 출력하기, 가장 큰 운동장, 1등과 꼴등, 가장 큰 수 \
+p.116~123
+
 [![Run on Repl.it](https://repl.it/badge/github/TheYunseokSong/quiz_preparation)](https://repl.it/github/TheYunseokSong/quiz_preparation)
