@@ -15,6 +15,15 @@ main()
 	scanf("%c", &code);
 	printf("보안키를 입력하세요 :");
 	scanf("%lf", &secure);
+	printf("이름을 입력하세요: ");
+	scanf("%s", &name);
+	printf("나이를 입력하세요:");
+	scanf("&d", &age);
+	fflush(stdin);
+	printf("부서코드를 입력하세요 :");
+	scanf("%c", &code);
+	printf("보안키를 입력하세요 :");
+	scanf("%lf", &secure);
 
 	printf("*****************\n");
 	printf("이름: %s\n", name);
